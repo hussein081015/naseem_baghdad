@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معمل مياه نسيم بغداد | مياه أكواب نقية</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="naseem_logo_perfect.png" alt="شعار نسيم بغداد" class="header-logo">
+                <div class="logo-text">
+                    <p>مياه معقمة بالأوزون والأشعة فوق البنفسجية</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">عن المعمل</a></li>
+                    <li><a href="#products">منتجاتنا</a></li>
+                    <li><a href="#services">خدماتنا الخاصة</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide">
+                <div class="slide-bg slide-bg-1"></div>
+                <div class="slide-image-container">
+                    <img src="كوب-removebg-preview.png" alt="كوب مياه نسيم بغداد" class="slide-img">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg slide-bg-2"></div>
+                <div class="slide-image-container">
+                    <img src="كارتون-removebg-preview.png" alt="كارتون مياه نسيم بغداد" class="slide-img slide-box">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container hero-content-box">
+            <div class="hero-text">
+                <h2>مياه نقية.. بصياغة عراقية أصيلة</h2>
+                <p>معمل نسيم بغداد يوفر لكم أجود أكواب المياه المعقمة بأحدث التقنيات وبأحجام تلبي كافة احتياجاتكم اليومية والمجتمعية.</p>
+                <a href="#products" class="btn">استعرض منتجات الأكواب</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container grid-2">
+            <div class="about-text">
+                <span class="badge">عن معملنا</span>
+                <h2>نقاء نلتزم به، وعراقة نستلهمها</h2>
+                <p>في معمل مياه <strong>نسيم بغداد</strong>، نحرص على تقديم مياه شرب معبأة داخل أكواب صحية ومحكمة الإغلاق سعة 200 مل. تخضع مياهنا لأعلى مستويات الفلترة والتعقيم بالأوزون والأشعة فوق البنفسجية لضمان سلامة عائلتك وموظفيك.</p>
+                <p>اتخذنا من برج بغداد رمزاً راسخاً على أغطية منتجاتنا لنؤكد التزامنا بالثبات، الجودة العالية، والتواجد الدائم في قلب العاصمة لتلبية كافة طلباتكم بسرعة وكفاءة.</p>
+            </div>
+            <div class="about-image">
+                <img src="baghdad_tower_clean.png" alt="برج بغداد" class="body-tower-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>منتجاتنا من الأكواب</h2>
+                <p>كراتين مياه مجهزة بأعلى مواصفات الجودة والنظافة</p>
+            </div>
+            <div class="product-grid">
+                
+                <div class="product-item">
+                    <span class="product-badge">الأكثر طلباً</span>
+                    <div class="product-image-wrapper">
+                        <img src="كوب-removebg-preview.png" alt="كوب مياه نسيم بغداد" class="product-real-img">
+                    </div>
+                    <h3>أكواب مياه سعة 200 مل</h3>
+                    <p>تصميم مريح وسهل الاستخدام، مثالي للمناسبات، الاجتماعات، والمجالس الحسينية.</p>
+                </div>
+                
+                <div class="product-item">
+                    <div class="product-image-wrapper">
+                        <img src="كارتون-removebg-preview.png" alt="كارتون مياه نسيم بغداد" class="product-real-img box-img">
+                    </div>
+                    <h3>كارتون مياه اقتصادي للطلب الكمي</h3>
+                    <p>صندوق متين يحتوي على الأكواب المعقمة لحمايتها وتسهيل نقلها، مخصص للمساجد والمدارس والمواكب الحسينية.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>خدماتنا المتميزة</h2>
+                <p>اضغط على أي خدمة لاستعراض التفاصيل الكاملة وطريقة الطلب مباشرة</p>
+            </div>
+            <div class="services-grid">
+                
+                <div class="service-card" onclick="openModal('subscription-modal')">
+                    <div class="service-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="custom-service-icon" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3>خدمة الاشتراك الشهري</h3>
+                    <p>ارتاح من هم الطلب المتكرر! اشترك معنا شهرياً، وحدد الكمية الدورية التي تحتاجها لتصلك بانتظام كل أسبوع.</p>
+                    <span class="view-more-lbl">اضغط للتفاصيل والطلب ←</span>
+                </div>
+
+                <div class="service-card" onclick="openModal('label-modal')">
+                    <div class="service-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="custom-service-icon" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path>
+                            <path d="M12 8A4 4 0 1 0 12 16A4 4 0 1 0 12 8Z"></path>
+                        </svg>
+                    </div>
+                    <h3>الغطاء المخصص والتصميم الخاص</h3>
+                    <p>أضف لمسة خاصة بهويتك! نوفر لكم خدمة طباعة شعار معملكم، شركتكم، أو تصميم مخصص لمناسباتكم بدقة عالية.</p>
+                    <span class="view-more-lbl">اضغط للتفاصيل والطلب ←</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="subscription-modal" class="modal-overlay" onclick="closeModalOnOverlay(event, 'subscription-modal')">
+        <div class="modal-card">
+            <span class="modal-close" onclick="closeModal('subscription-modal')">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon-container">
+                    <svg viewBox="0 0 24 24" class="modal-icon" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                </div>
+                <h3>تفاصيل خدمة الاشتراك الشهري</h3>
+            </div>
+            <div class="modal-body">
+                <h4>حول الخدمة:</h4>
+                <p>هذه الخدمة مخصصة للشركات، المكاتب، المساجد، والمنازل التي تستهلك أكواب المياه بانتظام. نوفر عليك عناء التواصل الأسبوعي وتتبع المخزون من خلال جدولة آلية مريحة.</p>
+                
+                <h4>المميزات الإضافية:</h4>
+                <ul>
+                    <li>توصيل مجاني ودوري ثابت (كل سبت أو حسب الاتفاق).</li>
+                    <li>خصومات حصرية وثابتة على الفواتير الشهرية مقارنة بالطلب الفردي.</li>
+                    <li>إمكانية تعديل الكمية الموردة أو إيقاف الاشتراك مؤقتاً في أي وقت بمجرد إشعارنا قبل 24 ساعة.</li>
+                </ul>
+
+                <div class="order-box">
+                    <h4>📋 كيفية الطلب والاشتراك:</h4>
+                    <p>يمكنكم تفعيل الاشتراك مباشرة عبر الاتصال بقسم المبيعات على الأرقام: <strong>07759806600</strong> أو <strong>07804440904</strong> وتحديد اسم الجهة، عنوان التوصيل، والكمية الأسبوعية المطلوبة.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="label-modal" class="modal-overlay" onclick="closeModalOnOverlay(event, 'label-modal')">
+        <div class="modal-card">
+            <span class="modal-close" onclick="closeModal('label-modal')">&times;</span>
+            <div class="modal-header">
+                <div class="modal-icon-container">
+                    <svg viewBox="0 0 24 24" class="modal-icon" fill="none" stroke="#007bff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 8A4 4 0 1 0 12 16A4 4 0 1 0 12 8Z"></path>
+                    </svg>
+                </div>
+                <h3>تفاصيل الغطاء المخصص والتصميم الخاص</h3>
+            </div>
+            <div class="modal-body">
+                <h4>حول الخدمة:</h4>
+                <p>نقدم للمؤسسات، المعامل الزميلة، والمواكب الحسينية ميزة فريدة وهي استبدال غطاء الأكواب القياسي (الذي يحمل برج بغداد) بأغطية مخصصة تحمل الهوية البصرية الخاصة بكم أو شعاراتكم للمناسبات الدينية والوطنية.</p>
+                
+                <h4>المميزات الإضافية:</h4>
+                <ul>
+                    <li>طباعة حرارية عالية الدقة ومقاومة للرطوبة والحرارة والخدش تماماً.</li>
+                    <li>تصميم مجاني مخصص يقدمه مصممو المعمل الاحترافيون ليلائم رغبتكم قبل اعتماده للطباعة.</li>
+                    <li>ألوان زاهية مطابقة للمعايير الصحية والمواصفات القياسية المعتمدة.</li>
+                </ul>
+
+                <div class="order-box">
+                    <h4>📋 كيفية الطلب والتصميم:</h4>
+                    <p>يتطلب هذا الخيار طلباً مسبقاً بحد أدنى للكمية (يرجى الاستفسار عنها من الإدارة). لإرسال شعارك أو التنسيق مع المصمم، تواصل معنا واتساب أو اتصال مباشر على الأرقام الرسمية للمعمل.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <img src="naseem_logo_perfect.png" alt="نسيم بغداد" class="footer-logo-img">
+                <p>مياه نقية وصحية معقمة بأحدث التكنولوجيا لخدمتكم دائماً في كافة مناطق العاصمة بغداد.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>معلومات التواصل والطلب</h3>
+                <p class="contact-method">📞 <strong>المبيعات والطلب المباشر:</strong></p>
+                <p class="phone-num">07759806600</p>
+                <p class="phone-num">07804440904</p>
+                <p class="contact-method">✉️ <strong>البريد الإلكتروني الرسمي:</strong></p>
+                <p class="email-text">naseembaghdad01@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 معمل مياه نسيم بغداد. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        function closeModalOnOverlay(event, modalId) {
+            if (event.target.classList.contains('modal-overlay')) {
+                closeModal(modalId);
+            }
+        }
+    </script>
+</body>
+</html>
